@@ -1,0 +1,161 @@
+.clearfix::before,.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+html{
+    font-size: 62.5%;
+    /*1rem = 10px*/
+    height:100%;
+    /*background-color: #3e98f0;*/
+}
+body{
+    height: 100%;
+    /*background-color: #3e98f0;*/
+    font-family: arial,sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+}
+/*reset end*/
+
+header{
+    background-color: #3e98f0;
+}
+.headerlogo{
+    background: #3e98f0 url(../img/bg-news-logo_344ce44.png) no-repeat;
+    background-position: center 10px;
+    background-size: 65px auto;
+    width: 100%;
+    height: 48px;
+    /*background-color: #3e98f0;*/
+    position: relative;
+    border-bottom: 1px solid #5dabf0;
+}
+body .float-left {
+    float: left;
+}
+body .float-right {
+    float: right;
+}
+.headerlogo a {
+    width: 34px;
+    height: 100%;
+    background: url(../img/icon-bg_6e9bc53.png) no-repeat;
+    background-size: 40px 500px;
+}
+.headerlogo .baidu-icon {
+    background-position: center 6px;
+    margin-left: 8px;
+}
+.headerlogo .profile-icon {
+    background-position: center -461px;
+    margin-left: 10px;
+}
+.headerlogo .subscribe-icon {
+    background-position: center -105px;
+    margin-right: 8px;
+}
+.headerlogo .search-icon {
+    background-position: center -160px;
+    margin-right: 10px;
+}
+
+nav{
+    background-color: #3e98f0;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0;
+}
+nav ul li{
+    display: inline-block;
+    position: relative;
+    font-size: 1.44rem;
+    line-height: 1.44rem;
+    text-align: center;
+    width: 16.6666%;
+}
+nav a{
+    display: inline-block;
+    padding: 1rem 0;
+    color: #fff;
+}
+nav ul li b {
+    position: absolute;
+    top: 13px;
+    left: -1px;
+    height: 12px;
+    width: 1px;
+    display: block;
+    overflow-y: hidden;
+    background-color: #5dabf0;
+}
+
+article{
+    background-color: #fff;
+    position: relative;
+}
+article>div{
+    position: relative;
+}
+
+
+.index-list-item {
+    position: relative;
+    overflow: hidden;
+    padding: 8px 0 10px;
+    margin: 0 17px;
+}
+.index-list-item .index-list-main-title {
+    font-size: 1.8rem;
+    line-height: 2rem;
+    color: #333;
+    max-height: 4rem;
+    overflow: hidden;
+}
+.index-list-album{
+    margin: 3px 0 8px -1px;
+    overflow: hidden;
+    width: auto;
+    /*display: -webkit-box;*/
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-box-pack: justify;
+    -webkit-box-align: stretch;
+    -webkit-box-lines: single;
+    display: -webkit-flex;
+}
+.index-list-album .index-list-album-wrapper{
+    overflow: hidden;
+    width: 33.33%;
+    max-height: 111px;
+    position: relative;
+    -webkit-box-flex: 4;
+    -webkit-flex: 4 4 auto;
+    box-sizing: border-box;
+    margin-left: 1px;
+}
+.index-list-album .index-list-album-wrapper img{
+    width: 100%;
+}
+
+.index-list-bottom {
+    margin-top: 4px;
+    margin-bottom: 1px;
+}
+.tip-time {
+    display: inline-block;
+    color: #999;
+    font-size: 1rem;
+    margin-right: 5px;
+    font-weight: 400;
+}

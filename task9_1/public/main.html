@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/task4_2.css" rel="stylesheet">
+
+    <title>Bootstrap</title>
+</head>
+<body>
+<!--<div class="container-fluid">-->
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="nav2" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <!--<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">-->
+                    <!--&lt;!&ndash;<span class="sr-only">Toggle navigation</span>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<span class="icon-bar"></span>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<span class="icon-bar"></span>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<span class="icon-bar"></span>&ndash;&gt;-->
+                <!--</button>-->
+                <a class="navbar-brand" href="#"><h1>百度新闻后台系统</h1></a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse visible-xs-4">
+                <ul class="nav navbar-nav navbar-right navright2">
+                    <li><a href="#">设置</a></li>
+                    <li><a href="#">个人信息</a></li>
+                    <!--<li><a><button class="" data-toggle="modal" data-target="#myModal">登录</button></a></li>-->
+                    <!--<li><button class="" data-toggle="modal" data-target="#myModal">登录</button></li>-->
+                    <li><a href="#">注销</a></li>
+
+                </ul>
+                <!--<ul class="navright2">-->
+                    <!--<li><a href="#">设置</a></li>-->
+                    <!--<li><a href="#">个人信息</a></li>-->
+                    <!--&lt;!&ndash;<li><a><button class="" data-toggle="modal" data-target="#myModal">登录</button></a></li>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<li><button class="" data-toggle="modal" data-target="#myModal">登录</button></li>&ndash;&gt;-->
+                    <!--<li><a href="#">注销</a></li>-->
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid" id="container">
+        <div class="row">
+            <!--<div class="col-lg-2 col-md-2 col-sm-3 col-xs-4 sidebar-menu hidden-xs" id="nav-left">-->
+                <!--<a href="#" class="nav-header menu-first collapsed" data-toggle="collapse"><span class="glyphicon glyphicon-home menu-first2"></span> 首    页</a>-->
+                <!--<a href="#userMenu" class="nav-header menu-first collapsed" data-toggle="collapse"><span class="glyphicon glyphicon-user menu-first2"></span> 人员管理<span class="glyphicon glyphicon-chevron-left"></span></a>-->
+                <!--<ul id="userMenu" class="nav nav-list collapse menu-second">-->
+                    <!--<li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> 成员基本信息</a></li>-->
+                    <!--<li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> 信息查询</a></li>-->
+                    <!--<li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> 模型管理</a></li>-->
+                    <!--<li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> 系统菜单管理</a></li>-->
+                    <!--<li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> 网站信息配置</a></li>-->
+                    <!--&lt;!&ndash;<i class="icon-book icon-large"></i>&ndash;&gt;-->
+                <!--</ul>-->
+                <!--<a href="#articleMenu" class="nav-header menu-first collapsed" data-toggle="collapse"><span class="glyphicon glyphicon-cog menu-first2"></span> 系统基础配置<span class="glyphicon glyphicon-chevron-left"></span></a>-->
+                <!--<ul id="articleMenu" class="nav nav-list collapse menu-second">-->
+                    <!--<li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> 网络配置</a></li>-->
+                    <!--<li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> 信息设置</a></li>-->
+                <!--</ul>-->
+                <!--<a href="#systemMenu" class="nav-header menu-first collapsed" data-toggle="collapse"><span class="glyphicon glyphicon-th-list menu-first2"></span> 任务管理<span class="glyphicon glyphicon-chevron-left"></span></a>-->
+                <!--<ul id="systemMenu" class="nav nav-list collapse menu-second">-->
+                    <!--<li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> 订单任务管理</a></li>-->
+                    <!--<li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> 季度任务管理</a></li>-->
+                <!--</ul>-->
+                <!--<a href="#selectMenu" class="nav-header menu-first collapsed" data-toggle="collapse"><span class="glyphicon glyphicon-stats menu-first2"></span> 查询统计<span class="glyphicon glyphicon-chevron-left"></span></a>-->
+                <!--<ul id="selectMenu" class="nav nav-list collapse menu-second">-->
+                    <!--<li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> 每日统计</a></li>-->
+                    <!--<li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> 当月统计</a></li>-->
+                    <!--<li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> 季度统计</a></li>-->
+                <!--</ul>-->
+
+                <!--&lt;!&ndash;<ul class="nav nav-sidebar">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<li class="active"><a href="#">Overview</a></li>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<li><a href="#">Reports</a></li>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<li><a href="#">Analytics</a></li>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<li><a href="#">Export</a></li>&ndash;&gt;-->
+                <!--&lt;!&ndash;</ul>&ndash;&gt;-->
+                <!--&lt;!&ndash;<ul class="nav nav-sidebar">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<li><a href="">Nav item</a></li>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<li><a href="">Nav item again</a></li>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<li><a href="">One more nav</a></li>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<li><a href="">Another nav item</a></li>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<li><a href="">More navigation</a></li>&ndash;&gt;-->
+                <!--&lt;!&ndash;</ul>&ndash;&gt;-->
+                <!--&lt;!&ndash;<ul class="nav nav-sidebar">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<li><a href="">Nav item again</a></li>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<li><a href="">One more nav</a></li>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<li><a href="">Another nav item</a></li>&ndash;&gt;-->
+                <!--&lt;!&ndash;</ul>&ndash;&gt;-->
+            <!--</div>-->
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" id="mainleft">
+                <!--<div class="col-lg-offset-1 col-lg-8 col-md-8 col-sm-8 col-xs-10">-->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">新闻编辑</h3>
+                        </div>
+                        <div class="panel-body">
+                            <form role="form">
+                                <div class="form-group">
+                                    <label for="newstitle">新闻标题</label>
+                                    <input type="text"  required="required" class="form-control" id="newstitle" placeholder="请输入新闻标题">
+                                </div>
+                                <div class="form-group">
+                                    <label for="newstype">新闻类型</label>
+                                    <select class="form-control" id="newstype">
+                                        <!--<option>推荐</option>-->
+                                        <option>科技</option>
+                                        <option>本地</option>
+                                        <option>娱乐</option>
+                                        <option>图片</option>
+                                        <option>社会</option>
+                                        <option>军事</option>
+                                        <option>互联网</option>
+                                        <option>百家</option>
+                                        <option>女人</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="newsimg">新闻图片(3张，逗号分隔。例：img/1.JPEG,img/2.JPEG,img/3.JPEG)</label>
+                                    <!--<input type="file" id="newsimg">-->
+                                    <input type="text"  required="required" class="form-control" id="newsimg" placeholder="请输入图片地址">
+                                </div>
+                                <div class="form-group">
+                                    <label for="newstime">新闻时间</label>
+                                    <input type="datetime-local" required="required" class="form-control" id="newstime">
+                                </div>
+                                <div class="form-group">
+                                    <label for="newsurl">新闻地址</label>
+                                    <input type="text" required="required" class="form-control" id="newsurl" placeholder="请输入新闻地址">
+                                </div>
+
+
+                                <!--<div class="form-group">-->
+                                    <!--<label for="exampleInputFile">File input</label>-->
+                                    <!--<input type="file" id="exampleInputFile">-->
+                                    <!--<p class="help-block">Example block-level help text here.</p>-->
+                                <!--</div>-->
+                                <!--<div class="checkbox">-->
+                                    <!--<label>-->
+                                        <!--<input type="checkbox"> Check me out-->
+                                    <!--</label>-->
+                                <!--</div>-->
+                                <button class="btn btn-default" id="btnsubmit">提交新闻</button>
+                                <!--<button type="submit" class="btn btn-default">提交新闻</button>-->
+                            </form>
+                        </div>
+                    </div>
+                <!--</div>-->
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" id="mainright">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">新闻列表</h3>
+                    </div>
+                    <div class="panel-body">
+                        <table class="table table-hover table-condensed table-responsive" id="newstable">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>类型</th>
+                                    <th>新闻标题</th>
+                                    <th>图片地址</th>
+                                    <th>新闻地址</th>
+                                    <th>新闻时间</th>
+                                    <th>操作</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!--<tr>-->
+                                    <!--<td></td>-->
+                                    <!--<td></td>-->
+                                    <!--<td></td>-->
+                                    <!--<td></td>-->
+                                    <!--<td></td>-->
+                                    <!--<td></td>-->
+                                    <!--<td>-->
+                                        <!--<button class="btn btn-primary btn-xs">编辑</button>-->
+                                        <!--<button class="btn btn-danger btn-xs">删除</button>-->
+                                    <!--</td>-->
+                                <!--</tr>-->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">开始演示模态框</button>-->
+    <!-- 模态框（Modal） -->
+    <div class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel">警告</h4>
+                </div>
+                <div class="modal-body">删除无法恢复</div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                    <button type="button" class="btn btn-primary" id="confirmDelete">确认</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal -->
+    </div>
+    <!-- 编辑模态框（Modal） -->
+    <div class="modal fade" id="updateModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">编辑</h4>
+                </div>
+                <div class="modal-body">
+                    <form role="form">
+                        <div class="form-group">
+                            <label for="newstitle">新闻标题</label>
+                            <input type="text"  required class="form-control" id="upnewstitle" placeholder="请输入新闻标题">
+                        </div>
+                        <div class="form-group">
+                            <label for="newstype">新闻类型</label>
+                            <select class="form-control" id="upnewstype">
+                                <option>科技</option>
+                                <option>本地</option>
+                                <option>娱乐</option>
+                                <option>图片</option>
+                                <option>社会</option>
+                                <option>军事</option>
+                                <option>互联网</option>
+                                <option>百家</option>
+                                <option>女人</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="newsimg">新闻图片</label>
+                            <!--<input type="file" id="newsimg">-->
+                            <input type="text"  required class="form-control" id="upnewsimg" placeholder="请输入图片地址">
+                        </div>
+                        <div class="form-group">
+                            <label for="newstime">新闻时间</label>
+                            <input type="datetime-local" required class="form-control" id="upnewstime">
+                        </div>
+                        <div class="form-group">
+                            <label for="newsurl">新闻地址</label>
+                            <input type="text" required class="form-control" id="upnewsurl" placeholder="请输入新闻地址">
+                        </div>
+
+
+                        <!--<div class="form-group">-->
+                        <!--<label for="exampleInputFile">File input</label>-->
+                        <!--<input type="file" id="exampleInputFile">-->
+                        <!--<p class="help-block">Example block-level help text here.</p>-->
+                        <!--</div>-->
+                        <!--<div class="checkbox">-->
+                        <!--<label>-->
+                        <!--<input type="checkbox"> Check me out-->
+                        <!--</label>-->
+                        <!--</div>-->
+                        <!--<button class="btn btn-default" id="upbtnsubmit">确定编辑</button>-->
+                        <!--<button type="submit" class="btn btn-default">提交新闻</button>-->
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                    <button type="button" class="btn btn-primary" id="confirmUpdate">确认</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal -->
+    </div>
+    <!-- Content here -->
+    <!--<div class="row">-->
+        <!--<div class="col-lg-6 col-md-12">-->
+            <!--Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do-->
+            <!--eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut-->
+            <!--enim ad minim veniam, quis nostrud exercitation ullamco laboris-->
+            <!--nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do-->
+            <!--eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut-->
+            <!--enim ad minim veniam, quis nostrud exercitation ullamco laboris-->
+            <!--nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do-->
+            <!--eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut-->
+            <!--enim ad minim veniam, quis nostrud exercitation ullamco laboris-->
+            <!--nisi ut aliquip ex ea commodo consequat.-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</div>-->
+<!--<div class="container-fluid">-->
+    <!--...fsdfs-->
+<!--</div>-->
+<!-- 按钮触发模态框 -->
+<!--<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">登录-->
+<!--</button>-->
+
+
+<!--<div class="container">-->
+
+    <!--<form class="form-signin" role="form">-->
+        <!--<h2 class="form-signin-heading">Please sign in</h2>-->
+        <!--<input type="email" class="form-control" placeholder="Email address" required autofocus>-->
+        <!--<input type="password" class="form-control" placeholder="Password" required>-->
+        <!--<div class="checkbox">-->
+            <!--<label>-->
+                <!--<input type="checkbox" value="remember-me"> Remember me-->
+            <!--</label>-->
+        <!--</div>-->
+        <!--<button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>-->
+    <!--</form>-->
+
+<!--</div> &lt;!&ndash; /container &ndash;&gt;-->
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/xss.js"></script>
+<script src="js/main.js"></script>
+<script src="dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>

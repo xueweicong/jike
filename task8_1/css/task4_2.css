@@ -1,0 +1,117 @@
+body{
+    /*min-width: 768px;*/
+    padding-top: 80px;
+    /*height: 100%;*/
+}
+html, body,.container-fluid,.row,.sidebar-menu {
+    height: 100%;
+}
+#container{
+    /*height: inherit;*/
+    background-color: #2aabd2;
+}
+#nav2{
+    height: 80px;
+}
+.row{
+    /*height: inherit;*/
+    /*background-color: #2a6496;*/
+}
+.sidebar-menu{
+    /*border-right: 1px solid #c4c8cb;*/
+    margin: 0;
+    padding: 0;
+    height: inherit;
+    background-color: rgba(33, 33, 33, 1)
+}
+.menu-first{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    text-align: left;
+    color: floralwhite;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: 1px solid #0f0f0f;
+    background-color: rgba(58, 58, 58, 1);
+    position: relative;
+}
+.menu-first:visited{
+    text-decoration: none;
+}
+a:hover, a:focus {
+    color: #2a6496;
+    text-decoration: none;
+}
+.menu-first2{
+    padding: 0 10px;
+}
+.sidebar-menu .glyphicon-chevron-left{
+    /*position: absolute;*/
+    float: right;
+    top:12px;
+    right:10px;
+    transition-duration: 0.5s;
+    transform-origin: center center;
+    transform: rotate(-90deg);
+}
+.sidebar-menu .menu-first:hover .glyphicon-chevron-left{
+    /*position: absolute;*/
+    /*float: right;*/
+    /*top:12px;*/
+    /*right:10px;*/
+    transform-origin: center center;
+    transform: rotate(-90deg);
+}
+.sidebar-menu .collapsed .glyphicon-chevron-left{
+     /*position: absolute;*/
+     /*float: right;*/
+     /*top:12px;*/
+     /*right:10px;*/
+     transform-origin: center center;
+     transform: rotate(0deg);
+ }
+
+.menu-second li a{
+    /*background-color: #f6f6f6;*/
+    /*height:31px;*/
+    /*line-height:31px;*/
+    /*border-top: 1px solid #efefef;*/
+    /*border-bottom: 1px solid #efefef;*/
+    /*font-size: 12px;*/
+    /*text-align:center;*/
+}
+.width2{
+    width: 450px;
+}
+/*.black-btn{*/
+    /*color: ghostwhite;*/
+    /*background-color: #3c3c3c;*/
+/*}*/
+#register{
+    float: right;
+    /*left: 200px;*/
+}
+#forgetpd{
+    float: right;
+    right: 35px;
+}
+/*@media screen  and (max-width: 768px){*/
+    /*#nav-left{*/
+        /*display: none;*/
+    /*}*/
+/*}*/
+/*@media screen  and (min-width: 768px) {*/
+    /*.navright2 {*/
+        /*display: none;*/
+        /*float: right !important;*/
+    /*}*/
+/*}*/
+/*@media screen  and (max-width: 768px) {*/
+    /*.navright2 {*/
+        /*position: absolute;*/
+        /*left:500px;*/
+        /*display: block;*/
+        /*float: right !important;*/
+    /*}*/
+/*}*/
