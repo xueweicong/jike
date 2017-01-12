@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/task4_2.css" rel="stylesheet">
+
+    <title>Bootstrap</title>
+</head>
+<body>
+<!--<div class="container-fluid">-->
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="nav2" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <!--<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">-->
+                    <!--&lt;!&ndash;<span class="sr-only">Toggle navigation</span>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<span class="icon-bar"></span>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<span class="icon-bar"></span>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<span class="icon-bar"></span>&ndash;&gt;-->
+                <!--</button>-->
+                <a class="navbar-brand" href="#"><h1>管理系统</h1></a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse visible-xs-4">
+                <ul class="nav navbar-nav navbar-right navright2">
+                    <li><a href="#">设置</a></li>
+                    <li><a href="#">个人信息</a></li>
+                    <!--<li><a><button class="" data-toggle="modal" data-target="#myModal">登录</button></a></li>-->
+                    <!--<li><button class="" data-toggle="modal" data-target="#myModal">登录</button></li>-->
+                    <li><a href="#">注销</a></li>
+
+                </ul>
+                <!--<ul class="navright2">-->
+                    <!--<li><a href="#">设置</a></li>-->
+                    <!--<li><a href="#">个人信息</a></li>-->
+                    <!--&lt;!&ndash;<li><a><button class="" data-toggle="modal" data-target="#myModal">登录</button></a></li>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<li><button class="" data-toggle="modal" data-target="#myModal">登录</button></li>&ndash;&gt;-->
+                    <!--<li><a href="#">注销</a></li>-->
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid" id="container">
+        <div class="row">
+            <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4 sidebar-menu hidden-xs" id="nav-left">
+                <a href="#" class="nav-header menu-first collapsed" data-toggle="collapse"><span class="glyphicon glyphicon-home menu-first2"></span> 首    页</a>
+                <a href="#userMenu" class="nav-header menu-first collapsed" data-toggle="collapse"><span class="glyphicon glyphicon-user menu-first2"></span> 人员管理<span class="glyphicon glyphicon-chevron-left"></span></a>
+                <ul id="userMenu" class="nav nav-list collapse menu-second">
+                    <li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> 成员基本信息</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> 信息查询</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> 模型管理</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> 系统菜单管理</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> 网站信息配置</a></li>
+                    <!--<i class="icon-book icon-large"></i>-->
+                </ul>
+                <a href="#articleMenu" class="nav-header menu-first collapsed" data-toggle="collapse"><span class="glyphicon glyphicon-cog menu-first2"></span> 系统基础配置<span class="glyphicon glyphicon-chevron-left"></span></a>
+                <ul id="articleMenu" class="nav nav-list collapse menu-second">
+                    <li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> 网络配置</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> 信息设置</a></li>
+                </ul>
+                <a href="#systemMenu" class="nav-header menu-first collapsed" data-toggle="collapse"><span class="glyphicon glyphicon-th-list menu-first2"></span> 任务管理<span class="glyphicon glyphicon-chevron-left"></span></a>
+                <ul id="systemMenu" class="nav nav-list collapse menu-second">
+                    <li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> 订单任务管理</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> 季度任务管理</a></li>
+                </ul>
+                <a href="#selectMenu" class="nav-header menu-first collapsed" data-toggle="collapse"><span class="glyphicon glyphicon-stats menu-first2"></span> 查询统计<span class="glyphicon glyphicon-chevron-left"></span></a>
+                <ul id="selectMenu" class="nav nav-list collapse menu-second">
+                    <li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> 每日统计</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> 当月统计</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> 季度统计</a></li>
+                </ul>
+
+                <!--<ul class="nav nav-sidebar">-->
+                    <!--<li class="active"><a href="#">Overview</a></li>-->
+                    <!--<li><a href="#">Reports</a></li>-->
+                    <!--<li><a href="#">Analytics</a></li>-->
+                    <!--<li><a href="#">Export</a></li>-->
+                <!--</ul>-->
+                <!--<ul class="nav nav-sidebar">-->
+                    <!--<li><a href="">Nav item</a></li>-->
+                    <!--<li><a href="">Nav item again</a></li>-->
+                    <!--<li><a href="">One more nav</a></li>-->
+                    <!--<li><a href="">Another nav item</a></li>-->
+                    <!--<li><a href="">More navigation</a></li>-->
+                <!--</ul>-->
+                <!--<ul class="nav nav-sidebar">-->
+                    <!--<li><a href="">Nav item again</a></li>-->
+                    <!--<li><a href="">One more nav</a></li>-->
+                    <!--<li><a href="">Another nav item</a></li>-->
+                <!--</ul>-->
+            </div>
+        </div>
+    </div>
+    <!-- Content here -->
+    <!--<div class="row">-->
+        <!--<div class="col-lg-6 col-md-12">-->
+            <!--Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do-->
+            <!--eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut-->
+            <!--enim ad minim veniam, quis nostrud exercitation ullamco laboris-->
+            <!--nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do-->
+            <!--eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut-->
+            <!--enim ad minim veniam, quis nostrud exercitation ullamco laboris-->
+            <!--nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do-->
+            <!--eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut-->
+            <!--enim ad minim veniam, quis nostrud exercitation ullamco laboris-->
+            <!--nisi ut aliquip ex ea commodo consequat.-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</div>-->
+<!--<div class="container-fluid">-->
+    <!--...fsdfs-->
+<!--</div>-->
+<!-- 按钮触发模态框 -->
+<!--<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">登录-->
+<!--</button>-->
+
+
+<!--<div class="container">-->
+
+    <!--<form class="form-signin" role="form">-->
+        <!--<h2 class="form-signin-heading">Please sign in</h2>-->
+        <!--<input type="email" class="form-control" placeholder="Email address" required autofocus>-->
+        <!--<input type="password" class="form-control" placeholder="Password" required>-->
+        <!--<div class="checkbox">-->
+            <!--<label>-->
+                <!--<input type="checkbox" value="remember-me"> Remember me-->
+            <!--</label>-->
+        <!--</div>-->
+        <!--<button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>-->
+    <!--</form>-->
+
+<!--</div> &lt;!&ndash; /container &ndash;&gt;-->
+<script src="./js/jquery-3.1.1.min.js"></script>
+<script src="./dist/js/bootstrap.min.js"></script>
+</body>
+</html>

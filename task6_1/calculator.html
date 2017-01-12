@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+
+            <table>
+                <caption>计算器</caption>
+                <!--屏幕-->
+                <tr>
+                    <th colspan="5">
+                        <div class="logo">
+                            <span class="name">简单的计算器</span>
+                            <span class="verson">@xueweicong v1.0</span>
+
+                        <input type="text" id="screen" name="screen" value="0" readonly="readonly">
+                        </div>
+                    </th>
+                </tr>
+                <tr class="article">
+                    <td>
+                        <!--事件绑定-->
+                        <input type="button" value="tan" id="tan">
+                    </td>
+                    <td>
+                        <input type="button" value="sin" id="sin">
+                    </td>
+                    <td>
+                        <input type="button" value="cos" id="cos">
+                    </td>
+                    <td>
+                        <!--事件HTML未分离-->
+                        <input type="button" value="退格" onclick="clearOne()">
+                    </td>
+                    <td>
+                        <input type="button" value="清零" onclick="clearAll()">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" value="7" class="num_btn" id="num_btn7">
+                    </td>
+                    <td>
+                        <input type="button" value="8" class="num_btn" id="num_btn8">
+                    </td>
+                    <td>
+                        <input type="button" value="9" class="num_btn" id="num_btn9">
+                    </td>
+                    <td>
+                        <input type="button" value="+" class="oper_btn">
+                    </td>
+                    <td>
+                        <input type="button" value="sqrt" onclick="getSqrt()">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" value="4" class="num_btn" id="num_btn4">
+                    </td>
+                    <td>
+                        <input type="button" value="5" class="num_btn" id="num_btn5">
+                    </td>
+                    <td>
+                        <input type="button" value="6" class="num_btn" id="num_btn6">
+                    </td>
+                    <td>
+                        <input type="button" value="-" class="oper_btn">
+                    </td>
+                    <td>
+                        <input type="button" value="%" class="oper_btn">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" value="1" class="num_btn" id="num_btn1">
+                    </td>
+                    <td>
+                        <input type="button" value="2" class="num_btn" id="num_btn2">
+                    </td>
+                    <td>
+                        <input type="button" value="3" class="num_btn" id="num_btn3">
+                    </td>
+                    <td>
+                        <input type="button" value="*" class="oper_btn">
+                    </td>
+                    <td rowspan="2" id="eval">
+                        <input type="button" value="=" id="evalbtn">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="button" value="0" class="num_btn" id="num_btn0">
+                    </td>
+                    <td>
+                        <input type="button" value="." class="num_btn" id="num_btn10">
+                    </td>
+                    <td>
+                        <input type="button" value="/" class="oper_btn">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>
