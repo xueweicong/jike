@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+span{
+    text-align: center;
+}
+.xiezi{
+    /*margin: 0 auto;*/
+    width:100px;
+    height:100px;
+    background-color: orange;
+    overflow: scroll;
+}
+.xiehe{
+    margin:0 auto;
+    /*margin-left: 10px;*/
+    /*margin-top: 10px;*/
+    padding: 10px;
+    width:100px;
+    height:100px;
+    background-color: aqua;
+    border:5px solid red;
+    /*box-shadow:5px 5px 5px 5px #666;*/
+}
+.xiezi2{
+    width:100px;
+    height:100px;
+    background-color: orange;
+}
+.xiehe2 {
+    /*margin-left: 10px;*/
+    /*margin-top: 10px;*/
+    margin:0 auto;
+    padding: 10px;
+    width: 130px;
+    height: 130px;
+    background-color: aqua;
+    border: 5px solid red;
+    box-sizing: border-box;
+}
+.xiehe3 {
+    margin: 50px auto;
+    padding: 10px;
+    width:100px;
+    height:100px;
+    background-color: aqua;
+    border:5px solid red;
+}
+.xiehe4{
+    margin: 50px auto;
+    padding: 10px;
+    width: 130px;
+    height: 130px;
+    background-color: aqua;
+    border: 5px solid red;
+    box-sizing: border-box;
+}
+.col{
+    -webkit-column-count: 3;
+    column-rule-style: dotted;
+    -webkit-box-flex: 1;
+    background-color: bisque;
+}
+
+.wrapper{
+    height:900px;
+    width: 1200px;
+    margin: 0 auto;
+    background-color: bisque;
+    /*display: -webkit-flex;*/
+    /*display: -webkit-box;*/
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    /*-webkit-box-orient: vertical;*/
+}
+.first{
+    text-align: center;
+    /*height: 100px;*/
+    -webkit-flex: 1;
+    /*-webkit-box-flex: 1;*/
+    background-color: orange;
+}
+.second{
+    /*height: 100px;*/
+    -webkit-flex: 7;
+    /*-webkit-box-flex: 7;*/
+    background-color: oldlace;
+    display: -webkit-flex;
+    /*width:600px;*/
+}
+.second_1{
+    text-align: center;
+    /*height: 100px;*/
+    background-color: lightgrey;
+    -webkit-flex: 1;
+    -webkit-order:3;
+}
+.second_2{
+    /*height: 100px;*/
+    background-color: darkorange;
+    -webkit-flex: 2;
+    -webkit-order:2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+.second_3{
+    text-align: center;
+    /*height: 100px;*/
+    background-color: lightgrey;
+    -webkit-flex: 1;
+    -webkit-order:1;
+}
+.third{
+    -webkit-flex: 1;
+    /*-webkit-box-flex: 1;*/
+    /*height: 100px;*/
+    background-color: #666666;
+}
+.col1{
+    margin: 0 auto;
+    -webkit-box-flex: 1;
+    background-color: bisque;
+}
+.col2{
+    margin: 0 auto;
+    -webkit-box-flex:1;
+    background-color: whitesmoke;
+}

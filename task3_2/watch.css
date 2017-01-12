@@ -1,0 +1,275 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#watch{
+    position: absolute;
+    width: 280px;
+    height: 800px;
+    left: 50%;
+    top:50%;
+    margin-left: -140px;
+    margin-top: -400px;
+    /*background-color: bisque;*/
+    /*top:50px;*/
+    /*margin:0 auto;*/
+}
+.watch_huan{
+    position: absolute;
+    width:110px;
+    height: 60px;
+    left: 85px;
+    background-color: #c0c0c0;
+    /*border-radius: 30px 20px;*/
+    border-top-left-radius: 30px 20px;
+    border-top-right-radius: 30px 20px;
+    border-bottom-left-radius: 30px 20px;
+    border-bottom-right-radius: 30px 20px;
+}
+.watch_huan2{
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    left: 15px;
+    top:10px;
+    background-color: white;
+    border-top-left-radius: 20px 10px;
+    border-top-right-radius: 20px 10px;
+    border-bottom-left-radius: 20px 10px;
+    border-bottom-right-radius: 20px 10px;
+}
+.watch_dai1{
+    position: absolute;
+    width:72px;
+    height: 160px;
+    left:104px;
+    top:58px;
+    background-color: #8C6A3F;
+
+}
+.watch_mid{
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    left: 60px;
+    top:210px;
+    border-radius: 50%;
+    background-color: palegoldenrod;
+}
+.watch_mid2{
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    left: 10px;
+    top:10px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+}
+.watch_mid2_1{
+    position: absolute;
+    width: 6px;
+    height: 0;
+    left: 64px;
+    /*background-color: #5CBA20;*/
+    /*border: 20px solid;*/
+    border-top: 15px solid black;
+    border-bottom: 15px solid transparent;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+}
+.watch_mid2_4{
+    position: absolute;
+    width: 6px;
+    height: 0;
+    left: 64px;
+    bottom: 0;
+    -webkit-transform: rotate(-180deg);
+    /*background-color: #5CBA20;*/
+    /*border: 20px solid;*/
+    border-top: 15px solid black;
+    border-bottom: 15px solid transparent;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+}
+.watch_mid2_2{
+    position: absolute;
+    width: 0;
+    height: 6px;
+    left: 0;
+    top:64px;
+    /*-webkit-transform: rotate(-90deg);*/
+    /*background-color: #5CBA20;*/
+    /*border: 20px solid;*/
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-left: 15px solid black;
+    border-right: 15px solid transparent;
+}
+.watch_mid2_3{
+    position: absolute;
+    width: 0;
+    height: 6px;
+    right: 0;
+    top:64px;
+    /*background-color: #5CBA20;*/
+    /*border: 20px solid;*/
+    -webkit-transform: rotate(-180deg);
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-left: 15px solid black;
+    border-right: 15px solid transparent;
+}
+.watch_mid2_5{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 62px;
+    top:62px;
+    border-radius: 50%;
+    background-color: black;
+    z-index: 5;
+}
+.watch_hour{
+    position: absolute;
+    width: 30px;
+    height: 10px;
+    left:70px;
+    top:65px;
+    background-color: darkslategrey;
+    -webkit-transform-origin:left center;
+    -webkit-animation: hours 43200s linear 0s infinite;
+    -moz-transform-origin: left center;
+    /*-moz-transform: rotate(-25deg);*/
+    -moz-animation: hours 43200s linear 0s infinite;
+    transform-origin: left center;;
+    /*transform: rotate(-25deg);*/
+    animation: hours 43200s linear 0s infinite;
+
+    z-index: 1;
+}
+@-webkit-keyframes hours {
+    to {
+        -webkit-transform:rotate(360deg)
+    }
+}
+@-moz-keyframes hours {
+    to {
+        -webkit-transform:rotate(360deg)
+    }
+}
+@keyframes hours {
+    to {
+        -webkit-transform:rotate(360deg)
+    }
+}
+.watch_min{
+    position: absolute;
+    width: 40px;
+    height: 6px;
+    left:70px;
+    top:67px;
+    background-color: dimgrey;
+    z-index: 2;
+    -webkit-transform-origin:left center;
+    -webkit-animation: minutes 3600s linear 0s infinite;
+    -moz-transform-origin:left center;
+    -moz-animation: minutes 3600s linear 0s infinite;
+    transform-origin:left center;
+    animation: minutes 3600s linear 0s infinite;
+
+}
+@-webkit-keyframes minutes {
+    to {
+        -webkit-transform:rotate(360deg)
+    }
+}
+@-moz-keyframes minutes {
+    to {
+        -webkit-transform:rotate(360deg)
+    }
+}
+@keyframes minutes {
+    to {
+        -webkit-transform:rotate(360deg)
+    }
+}
+.watch_sec{
+    position: absolute;
+    width: 60px;
+    height: 4px;
+    left:70px;
+    top:68px;
+    background-color: #000000;
+    z-index: 3;
+    -webkit-transform-origin:left center;
+    /*-webkit-transform: rotate(180deg);*/
+    -webkit-animation: seconds 60s steps(60, end) 0s infinite;
+    -moz-transform-origin:left center;
+    /*-moz-transform: rotate(180deg);*/
+    -moz-animation: seconds 60s steps(60, end) 0s infinite;
+    transform-origin:left center;
+    /*transform: rotate(180deg);*/
+    animation: seconds 60s steps(60, end) 0s infinite;
+}
+@-webkit-keyframes seconds {
+    to {
+        -webkit-transform:rotate(360deg)
+    }
+}
+@-moz-keyframes seconds {
+    to {
+        -webkit-transform:rotate(360deg)
+    }
+}
+@keyframes seconds {
+    to {
+        -webkit-transform:rotate(360deg)
+    }
+}
+
+.watch_dai2{
+    position: absolute;
+    width:72px;
+    height: 230px;
+    left: 104px;
+    top:360px;
+    background-color: #8C6A3F;
+}
+.watch_dai3{
+    position: absolute;
+    width:0;
+    left:104px;
+    top:590px;
+    border-top: 40px solid #8C6A3F;
+    border-bottom: 40px solid transparent;
+    border-left: 36px solid transparent;
+    border-right: 36px solid transparent;
+    /*width: ;*/
+}
+.watch_dai2_1{
+    position: absolute;
+    width: 12px;
+    height: 20px;
+    left: 30px;
+    top:100px;
+    background: whitesmoke;
+    -webkit-border-radius: 50%;
+}
+.watch_dai2_2{
+    position: absolute;
+    width: 12px;
+    height: 20px;
+    left: 30px;
+    top:150px;
+    background: whitesmoke;
+    -webkit-border-radius: 50%;
+}
+.watch_dai2_3{
+    position: absolute;
+    width: 12px;
+    height: 20px;
+    left: 30px;
+    top:200px;
+    background: whitesmoke;
+    -webkit-border-radius: 50%;
+}
