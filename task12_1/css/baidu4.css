@@ -1,0 +1,530 @@
+html, body{
+    font: 12px Arial;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    min-width: 810px;
+    min-height: 650px;
+}
+
+/*导航条及右边*/
+header{
+    overflow: hidden;
+}
+
+header nav{
+    /*width:480px;*/
+    float: right;
+    margin: 19px 0 5px 0;
+    padding: 0 138px 0 0;
+}
+
+header nav a{
+    /*display: inline-block;*/
+    float: left;
+    margin-left: 20px;
+    color:#333;
+    /*font-weight: bold;*/
+    line-height: 24px;
+    font-size: 13px;
+    /*text-decoration-color: burlywood;*/
+}
+header nav .xinwen{
+    font-weight: 700;
+}
+header nav a:hover{
+    color: #00c;
+}
+/*header nav a:hover:visited{*/
+/*color: #333;*/
+/*}*/
+
+/*更多产品*/
+/*.more-product{*/
+/*position:absolute;*/
+/*top:0;*/
+/*right:0;*/
+/*height:100%;*/
+/*width:75px;*/
+/*border-left: 1px solid #ddd;*/
+/*background-color: #f9f9f9;*/
+/*!*display: none;*!*/
+/*display: block;*/
+/*z-index: 999;*/
+/*}*/
+.lefthide{
+    z-index: 10;
+    width:85px;
+    height: 100%;
+    background-color: #f9f9f9;
+    border-left:1px solid #e7e7e7;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 0;
+    /*margin-left: 12px;*/
+    /*margin-right: 12px;*/
+    /*border-color: lightgrey;*/
+    /*margin-top: 0;*/
+    /*margin-right: 0;*/
+    /*border:1px solid #F00;*/
+    /*border-style: double;*/
+    /*border: 5px;*/
+    /*border-color: #4098ff;*/
+    /*float:right;*/
+    top:0;
+    right: 0;
+    /*margin-right: 0;*/
+    /*padding-left: 9px;*/
+    /*padding-right: 9px;*/
+    position: absolute;
+    /*#f9f9f9#e7e7e7*/
+}
+/*.bri4{*/
+/*padding-top: 18px;*/
+/*}*/
+.lefthide_1{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 66px;
+    /*position: absolute;*/
+}
+.bri2{
+    color: #333;
+    padding-top: 23px;
+    padding-bottom: 18px;
+    font-size:13px;
+    text-align: center;
+    border-bottom: 1px solid #e7e7e7;
+}
+.bri3{
+    /*text-align: center;*/
+
+    /*padding-top: 18px;*/
+    /*padding-bottom: 10px;*/
+
+    /*padding-left: 5px;*/
+    position: relative;
+    border-bottom: 1px solid #e7e7e7;
+    width:100%;
+    height:75px;
+}
+.bri_s{
+    /*margin-left: 0;*/
+    color: #666;
+    /*text-decoration: none;*/
+    position: relative;
+    top: 52px;
+    /*margin: 0 auto;*/
+    /*padding: 0;*/
+    /*margin: 0 auto;*/
+    /*margin-top: 5px;*/
+    /*left: 10px;*/
+    /*display: inline-block;*/
+    /*padding-left: ;*/
+    /*text-align: center;*/
+}
+/*.bri_s{*/
+/**text-align: center;*/
+/*}*/
+.bri_s:hover{
+    text-decoration: underline;
+}
+.bri_s2{
+    color: #666;
+    /*text-decoration-color: #666;*/
+    position: relative;
+    text-decoration: none;
+    top:18px;
+}
+.pic{
+    /*margin: 0 auto;*/
+    /*padding: 0;*/
+    position: relative;
+}
+.fon{
+    /*margin-left: 0;*/
+    /*margin: 0 auto;*/
+    /*padding: 0;*/
+    width:100%;
+    height:75px;
+    text-align: center;
+}
+.bri5{
+    /*margin: 0;*/
+    padding: 0;
+    text-align: center;
+}
+.bri6{
+
+    /*margin: 0 auto;*/
+    /*display: block;*/
+    /*padding-left: 13px;*/
+    /*text-align: center;*/
+}
+.bri_a{
+    margin-left: 0;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    width:100%;
+    height:75px;
+}
+.bri_a2{
+    /*text-decoration: dashed;*/
+    text-decoration-color: #666;
+}
+.img1{
+    position: absolute;
+    /*display: inline-block;*/
+    width:40px;
+    height:36px;
+    top:10px;
+    left:14px;
+    background: #fff url(../img/bdbri_icons_0a62ce1.png) no-repeat -72px 0;
+    /*cursor: pointer;*/
+}
+.img2{
+    position: absolute;
+    /*display: inline-block;*/
+    width:36px;
+    height:36px;
+    top:10px;
+    left:16px;
+    background: #fff url(../img/bdbri_icons_0a62ce1.png) no-repeat -112px 0;
+    /*cursor: pointer;*/
+}
+.img3{
+    position: absolute;
+    /*display: inline-block;*/
+    width:36px;
+    height:36px;
+    top:10px;
+    left:14px;
+    background: #fff url(../img/bdbri_icons_0a62ce1.png) no-repeat -36px 0;
+    /*cursor: pointer;*/
+}
+.img4{
+    position: absolute;
+    /*display: inline-block;*/
+    width:36px;
+    height:36px;
+    top:10px;
+    left:14px;
+    background: #fff url(../img/bdbri_icons_0a62ce1.png) no-repeat -148px 0;
+    /*cursor: pointer;*/
+}
+.img5{
+    position: absolute;
+    /*display: inline-block;*/
+    width:36px;
+    height:36px;
+    top:10px;
+    left:14px;
+    background: #fff url(../img/bdbri_icons_0a62ce1.png) no-repeat -184px 0;
+    /*cursor: pointer;*/
+}
+
+
+/*更多产品*/
+header nav .more{
+    /*display: inline-block;*/
+    position: absolute;
+    right: 10px;
+    width: 60px;
+    height: 23px;
+    float: left;
+    color: #fff;
+    background: #38f;
+    line-height: 24px;
+    font-size: 13px;
+    text-align: center;
+    overflow: hidden;
+    border-bottom: 1px solid #38f;
+    margin-left: 19px;
+    margin-right: 2px;
+    text-decoration: none;
+}
+
+
+.setting-menu:hover .baidu-setting{
+    display: block;
+}
+.setting-menu{
+    position: absolute;
+    width:46px;
+    height: 24px;
+    right: 95px;
+    font-size: 13px;
+}
+.baidu-setting a{
+    text-decoration: none;
+}
+.baidu-setting{
+    position: absolute;
+    top:25px;
+    left:3px;
+    width:60px;
+    border:1px solid #ddd;
+    box-shadow: 1px 1px 5px #ddd;
+    z-index: 99;
+    display: none;
+}
+.baidu-setting a {
+    margin: 0;
+    display: inline-block;
+    width:100%;
+    text-align: center;
+    color: #333;
+}
+.baidu-setting a:hover{
+    color: #ffffff;
+    background-color: #3385ff;
+}
+
+.icon-trangle{
+    position: absolute;
+    top:-11px;
+    left:25px;
+    width:0;
+    height:0;
+    display: block;
+    border: 5px solid transparent;
+    border-style: dashed dashed solid dashed;
+    border-bottom-color: #d8d8d8;
+}
+.icon-trangle:after{
+    content: '.';
+    position: absolute;
+    top:-4px;
+    left:-5px;
+    width:0;
+    height:0;
+    display: block;
+    border: 5px solid transparent;
+    border-style: dashed dashed solid dashed;
+    border-bottom-color: #fff;
+}
+
+
+
+
+
+
+
+/*中间表单*/
+.content{
+    position: relative;
+    top: 38.2%;
+    height:191px;
+    text-align: center;
+    z-index: 5;
+}
+.content .search-form{
+    position: relative;
+    height: 191px;
+    width: 100%;
+    top:-191px;
+    text-align: center;
+}
+.content img{
+    width: 270px;
+    height: 129px;
+}
+input{
+    outline: none;
+}
+
+.content .search-input{
+    width:539px;
+    height:28px;
+    position: relative;
+    float: left;
+    border: 1px solid #dddddd;
+    padding: 3px 0 3px 7px;
+    /*padding: 4px 0 2px 7px; \9*/
+    border-right-width: 0;
+}
+.content .search-input {
+    /*padding: 6px 0 0 7px\9;*/
+    /*padding: 6px 0 0 7px;*/
+    /**padding: 6px 0 0 7px;*/
+    *padding-top:6px;
+    *padding-bottom:0;
+    /**margin-top:5px;*/
+}
+
+.content .search-input:hover{
+    border-color: #999 transparent #b3b3b3 #999;
+}
+.content .search-input:focus{
+    border-color: #4791ff transparent #4791ff #4791ff;
+}
+
+.content .search-btn{
+    width:100px;
+    height:36px;
+    /*margin-left: -4px;*/
+    /*margin: -4px;*/
+    position: relative;
+    /*float: left;*/
+    /*top:-1px;*/
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    background: #3385ff;
+    border: 0;
+    /*border-bottom: 1px solid #2d78f4;*/
+    /*border-left: 0;*/
+    /*border-right: 0;*/
+    /*border-top: 0;*/
+    /*outline: medium;*/
+    vertical-align: middle;
+    cursor: pointer;
+
+    /*-webkit-appearance: none;*/
+    /*-webkit-border-radius: 0;*/
+}
+/*html>!**!body .content .search-btn{*/
+/*top:-3px;*/
+/*}*/
+@-moz-document url-prefix()    /*Firefox*/
+{
+    .content .search-btn {
+        top: -3px;
+    }
+    header nav{
+        /*width:480px;*/
+        /*float: right;*/
+        margin: 20px 0 5px 0;
+        /*padding: 0 138px 0 0;*/
+    }
+    .img1, .img2, .img3, .img4, .img5{
+        top:22px;
+    }
+    .bri_a2{
+        /*text-decoration: dashed;*/
+        text-decoration-color: #666;
+    }
+    .content .search-btn {
+        top:0;
+    }
+}
+
+.content .search-btn:hover{
+    background: #317ef3;
+    /*border-bottom: 1px solid #2868c8;*/
+    box-shadow: 1px 1px 1px #ccc;
+}
+.content .search-btn:active{
+    background: #3075dc;
+    /*border-bottom: 1px solid #2868c8;*/
+    box-shadow: 1px 1px 1px #ccc;
+}
+
+/*tubiao*/
+.content .form{
+    position: relative;
+    width:647px;
+    height: 191px;
+    /*text-align: center;*/
+    margin: 0 auto;
+}
+.content .icon-mic{
+    position: absolute;
+    display: inline-block;
+    width:18px;
+    height:16px;
+    top:10px;
+    right:110px;
+    background: #fff url(../img/camera_new_5606e8f.png) no-repeat;
+    cursor: pointer;
+}
+.content .icon-mic:hover{
+    background: #fff url(../img/camera_new_5606e8f.png) no-repeat 0 -20px;
+}
+
+
+
+/*下面*/
+footer{
+    /*padding-top: 370px;*/
+    text-align: center;
+    /*padding-bottom: 200px;*/
+    position: absolute;
+    bottom:20px;
+    width: 624px;
+    /*height: 79px;*/
+    left:50%;
+    margin-left: -312px;
+    /*width: 650px \9;*/
+    /*#width: 660px;*/
+    /*<!--[if IE 11]>*/
+    /*width: 650px;*/
+    /*<![endif]-->*/
+}
+
+
+footer p{
+    text-align: center;
+}
+.bottomleft{
+    display: inline-block;
+}
+.bottomright{
+    display: inline-block;
+    line-height: 14px;
+    color: #999;
+}
+.bottomleft_1, .bottomleft_2{
+    display: inline-block;
+}
+.bottomleft, .bottomright{
+    *display: inline;
+}
+.bottomleft_1, .bottomleft_2{
+    *display: inline;
+}
+footer .bottomleft_1_2_1{
+    *position: relative;
+    *top:12px;
+}
+footer .bottomleft_1_2_2{
+    *position: relative;
+    *top:5px;
+}
+footer .bottomright_1{
+    *position: relative;
+    *top:12px;
+}
+footer .bottomright_2{
+    *position: relative;
+    *top:6px;
+}
+
+
+.bottomleft_1_1, .bottomleft_1_2, .bottomleft_2_1, .bottomleft_2_2{
+    /*display: inline-block;*/
+    float: left;
+    /*padding-left: 10px;*/
+    /*padding-right: 20px;*/
+}
+.bottomleft_1_2_1, .bottomleft_1_2_2{
+    /*margin: 0;*/
+    padding-left: 10px;
+    padding-right: 30px;
+}
+.bottomleft_1_2_1{
+    color: #666;
+}
+.bottomleft_1_2_2{
+    color: #999;
+}
+.bottomtext{
+    color: #999;
+}
